@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "lib": ["es6", "dom", "esnext"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/__tests__/*", "src/**/*.test.ts", "src/**/*.spec.ts"]
+}

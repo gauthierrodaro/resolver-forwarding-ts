@@ -1,0 +1,5 @@
+# import User, UserCreateInput, UserWhereUniqueInput, UserWhereInput, UserOrderByInput, UserWhereUniqueInput from "./generated-schema.graphql"
+
+type Query {
+  user(where: UserWhereUniqueInput!): User
+}
